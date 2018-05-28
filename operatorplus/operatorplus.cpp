@@ -20,12 +20,12 @@ void CFeet::setvalue(int fe, int in)
 	feet = fe + in / 12;
 	inches = in % 12;
 }
-CFeet CFeet::add(CFeet &a)
+/*CFeet CFeet::add(CFeet &a)
 {
 	CFeet temp;
 	temp.setvalue(feet + a.feet, inches + a.inches);
 	return temp;
-}
+}*/
 CFeet CFeet::operator+(CFeet&a)
 {
 	CFeet temp;
